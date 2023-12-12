@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Vision",
     paragraph:
-      "All for STEM and STEM fir all",
+      "All for STEM and STEM for all",
   },
   {
     id: 1,

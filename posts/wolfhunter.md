@@ -1,6 +1,6 @@
 ---
-title: "Wolfhunter: A PICO-8 RPG"
-subtitle: "Implementing Pokemon-like combat mechanics in PICO-8."
+title: "Test narkdown file"
+subtitle: "test markdown file"
 date: "2020-12-22"
 ---
 
