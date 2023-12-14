@@ -17,9 +17,9 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />
       <AboutSectionOne />
       <AboutSectionTwo />
+      <Features />
     </>
   );
 }

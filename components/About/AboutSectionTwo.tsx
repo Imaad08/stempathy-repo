@@ -5,97 +5,99 @@ const AboutSectionTwo = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
-          {/* Left Side */}
-          <div className="w-full px-4 lg:w-1/2 mb-8 lg:mb-0">
-            <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-              Impacts
-            </h3>
-          </div>
-
-          {/* Right Side */}
-          <div className="w-full px-4 lg:w-1/2 flex flex-wrap lg:flex-row">
-            {/* First Section */}
-            <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
-              <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
-                <Image
-                  src="/images/impacts/people.png"
-                  alt="logo"
-                  className="fill-current"
-                  width={40}
-                  height={40}
-                />
-              </div>
-              <div className="flex-grow">
-                <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  1,000+
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                  People Impacted
-                </p>
-              </div>
+        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+          <div className="-mx-4 flex flex-wrap items-center">
+            {/* Left Side */}
+            <div className="w-full px-4 lg:w-1/2 mb-8 lg:mb-0">
+              <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                Impacts
+              </h3>
             </div>
 
-            {/* Second Section */}
-            <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
-              <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
-                <Image
-                  src="/images/impacts/hands.png"
-                  alt="logo"
-                  className="fill-current"
-                  width={40}
-                  height={40}
-                />
+            {/* Right Side */}
+            <div className="w-full px-4 lg:w-1/2 flex flex-wrap lg:flex-row">
+              {/* First Section */}
+              <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
+                <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
+                  <Image
+                    src="/images/impacts/people.png"
+                    alt="logo"
+                    className="fill-current"
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <div className="flex-grow">
+                  <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
+                    150+
+                  </h3>
+                  <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
+                    People Impacted
+                  </p>
+                </div>
               </div>
-              <div className="flex-grow">
-                <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  2
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                  Countries Collaborated With
-                </p>
-              </div>
-            </div>
 
-            {/* Third Section */}
-            <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
-              <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
-                <Image
-                  src="/images/impacts/click.png"
-                  alt="logo"
-                  className="fill-current"
-                  width={40}
-                  height={40}
-                />
+              {/* Second Section */}
+              <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
+                <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
+                  <Image
+                    src="/images/impacts/hands.png"
+                    alt="logo"
+                    className="fill-current"
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <div className="flex-grow">
+                  <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
+                    2
+                  </h3>
+                  <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
+                    Countries Collaborated With
+                  </p>
+                </div>
               </div>
-              <div className="flex-grow">
-                <h3 className="mb-1 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  17
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                  Events Planned
-                </p>
-              </div>
-            </div>
 
-            {/* Fourth Section */}
-            <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
-              <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
-                <Image
-                  src="/images/impacts/card.png"
-                  alt="logo"
-                  className="fill-current"
-                  width={40}
-                  height={40}
-                />
+              {/* Third Section */}
+              <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
+                <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
+                  <Image
+                    src="/images/impacts/click.png"
+                    alt="logo"
+                    className="fill-current"
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <div className="flex-grow">
+                  <h3 className="mb-1 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
+                    7
+                  </h3>
+                  <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
+                    Events Planned
+                  </p>
+                </div>
               </div>
-              <div className="flex-grow">
-                <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  $800
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                  Money Donated
-                </p>
+
+              {/* Fourth Section */}
+              <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
+                <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
+                  <Image
+                    src="/images/impacts/card.png"
+                    alt="logo"
+                    className="fill-current"
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <div className="flex-grow">
+                  <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
+                    $800
+                  </h3>
+                  <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
+                    Money Raised
+                  </p>
+                </div>
               </div>
             </div>
           </div>

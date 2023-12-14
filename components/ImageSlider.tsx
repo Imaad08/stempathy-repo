@@ -10,20 +10,17 @@ interface Slide {
 const UpdatedSliderComponent: React.FC = () => {
     const updatedSlides: Slide[] = [
         {
-            imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',
+            imageURL: 'https://static.wixstatic.com/media/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.jpg/v1/fill/w_2915,h_2186,al_c,q_90/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.webp',
         },
         {
-            imageURL: 'https://static.wixstatic.com/media/1df416_717fad7f2a0e4fd1a623e7a5c8d6fb45~mv2.png/v1/fill/w_679,h_521,al_c,lg_1,q_85,enc_auto/Screenshot%202023-09-18%20215025.png',
+            imageURL: 'https://static.wixstatic.com/media/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.webp',
         },
         {
-            imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',
+            imageURL: 'https://static.wixstatic.com/media/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.webp',
         },
         {
-            imageURL: 'https://static.wixstatic.com/media/1df416_717fad7f2a0e4fd1a623e7a5c8d6fb45~mv2.png/v1/fill/w_679,h_521,al_c,lg_1,q_85,enc_auto/Screenshot%202023-09-18%20215025.png',
-        },
-        {
-            imageURL: 'https://i.ibb.co/XDNffPB/pexels-binyamin-mellish-186077-1.jpg',
-        },
+            imageURL: 'https://static.wixstatic.com/media/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.webp',
+        }, 
     ];
 
     const [currentIndex, setCurrentIndex] = useState<number>(0);
