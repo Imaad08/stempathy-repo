@@ -21,6 +21,15 @@ const Footer = () => {
                     width={140}
                     height={30}
                   />
+
+                <Image
+                    src="/images/logo/lightmodestempathylogo.svg"
+                    alt="logo"
+                    className="w-full dark:hidden"
+                    width={140}
+                    height={30}
+                  />
+
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
                   STEM for all and all for STEM

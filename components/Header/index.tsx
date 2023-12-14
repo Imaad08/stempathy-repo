@@ -63,6 +63,14 @@ const Header = () => {
                   height={30}
                   className="hidden w-full dark:block"
                 />
+
+                <Image
+                  src="/images/logo/lightmodestempathylogo.svg"
+                  alt="logo"
+                  width={140}
+                  height={30}
+                  className="w-full dark:hidden"
+                />
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
