@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-8 md:py-10 lg:py-14">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+        <div className="border-b border-body-color/[.15] pb-6 dark:border-white/[.15] md:pb-7 lg:pb-10">
           <div className="-mx-4 flex flex-wrap items-center">
             {/* Left Side */}
-            <div className="w-full px-4 lg:w-1/2 mb-8 lg:mb-0">
+            <div className="w-full px-4 lg:w-1/2 mb-6 lg:mb-0">
               <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                 Impacts
               </h3>
