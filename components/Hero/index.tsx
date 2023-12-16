@@ -28,10 +28,10 @@ const Hero = () => {
                     Contact Us
                   </Link>
                   <Link
-                    href="https://discord.gg/njnwKEQVy5"
+                    href="https://gofund.me/cfb6dac5"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Join Us
+                    Help Give Back
                   </Link>
                 </div>
               </div>
