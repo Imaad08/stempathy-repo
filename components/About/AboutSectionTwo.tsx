@@ -32,7 +32,7 @@ const AboutSectionTwo = () => {
                     150+
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                    People Impacted
+                    Students Reached
                   </p>
                 </div>
               </div>

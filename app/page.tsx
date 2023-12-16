@@ -7,7 +7,7 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "STEMpathy DNHS",
+  title: "STEMPATHY DNHS",
   description: "This is Home for STEMpathy DNHS",
   // other metadata
 };

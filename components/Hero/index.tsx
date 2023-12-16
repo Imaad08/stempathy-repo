@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-const Hero = () => {
+const Donate = () => {
   return (
     <>
       <section
-        id="home"
+        id="donate"
         className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[100px] 2xl:pt-[160px]"
       >
         <div className="container">
@@ -15,11 +15,16 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  STEMpathy
+                  STEMPATHY
                 </h1>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
                 We are club STEMpathy at Del Norte High School in Poway Unified School District driven to elevate humanity by educating and inspiring children around the globe. Our purpose is to bring access to STEM education to local communities and underprivileged children all over the world in hopes to eliminate STEM education disparities.
                 </p>
+
+                <h1 className="dark:text-body-color-dark mb-12 text-base !leading-relaxed dark:text-white sm:text-lg md:text-3xl">
+                  All for STEM and STEM for All
+                </h1>
+
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/contact"
@@ -28,7 +33,7 @@ const Hero = () => {
                     Contact Us
                   </Link>
                   <Link
-                    href="https://gofund.me/cfb6dac5"
+                    href="/donate"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Help Give Back
@@ -284,4 +289,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Donate;
