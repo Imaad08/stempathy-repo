@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BsChevronCompactLeft as LeftArrowIcon, BsChevronCompactRight as RightArrowIcon } from 'react-icons/bs';
 import { RxDotFilled as DotIcon } from 'react-icons/rx';
 
@@ -24,6 +24,13 @@ const UpdatedSliderComponent: React.FC = () => {
     ];
 
     const [currentIndex, setCurrentIndex] = useState<number>(0);
+
+    useEffect(() => {
+        updatedSlides.forEach(slide => {
+            const img = new Image();
+            img.src = slide.imageURL;
+        });
+    }, [updatedSlides]);
 
     const goToPrevSlide = () => {
         const isFirstSlide = currentIndex === 0;
