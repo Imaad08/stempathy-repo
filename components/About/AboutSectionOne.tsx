@@ -5,19 +5,19 @@ import UpdatedSliderComponent from "../ImageSlider";
 const images = [
   {
     imageURL:
-      'https://static.wixstatic.com/media/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.jpg/v1/fill/w_2915,h_2186,al_c,q_90/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.webp',
+      'https://i.ibb.co/fY75L32/SCR-20231225-sdzb.jpg',
   },
   {
     imageURL:
-      'https://static.wixstatic.com/media/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.webp',
+      'https://i.ibb.co/NsdDRW6/SCR-20231225-sflc.jpg',
   },
   {
     imageURL:
-      'https://static.wixstatic.com/media/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.webp',
+      'https://i.ibb.co/Wkb80t3/SCR-20231225-sfyf.jpg',
   },
   {
     imageURL:
-      'https://static.wixstatic.com/media/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.webp',
+      'https://i.ibb.co/fF2F1rr/SCR-20231225-sgjf.jpg',
   },
 ];
 

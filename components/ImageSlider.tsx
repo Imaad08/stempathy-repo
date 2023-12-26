@@ -69,10 +69,18 @@ const UpdatedSliderComponent: React.FC<UpdatedSliderComponentProps> = ({ images 
           </div>
         ))}
       </Slider>
-      <button onClick={handlePrev} className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-primary text-white rounded-full p-2">
+      <button
+        onClick={handlePrev}
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-primary text-white rounded-full p-2"
+        aria-label="Previous Slide"
+      >
         <ChevronLeftIcon className="w-6 h-6" />
       </button>
-      <button onClick={handleNext} className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-primary text-white rounded-full p-2">
+      <button
+        onClick={handleNext}
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-primary text-white rounded-full p-2"
+        aria-label="Next Slide"
+      >
         <ChevronRightIcon className="w-6 h-6" />
       </button>
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
