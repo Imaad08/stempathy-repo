@@ -22,7 +22,7 @@ const Donate = () => {
                 </p>
 
                 <h1 className="dark:text-body-color-dark mb-12 text-base !leading-relaxed dark:text-white sm:text-lg md:text-3xl">
-                  All for STEM and STEM for All
+                  STEM for all and all for STEM
                 </h1>
 
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
