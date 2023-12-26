@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Post",
+  title: "Post | STEMpathy DNHS",
   description: "One of many blogs for STEMPATHY",
   // other metadata
 };
