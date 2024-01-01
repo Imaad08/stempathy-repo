@@ -6,13 +6,12 @@
 
 @layer base {
   body {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif, "slick";
     font-display: swap;
   }
 }
 @font-face {
-  font-family: "Inter";
-  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900');
+  font-family: "slick";
   font-display: swap;
 }
 
