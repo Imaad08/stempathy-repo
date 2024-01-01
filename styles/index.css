@@ -6,14 +6,14 @@
 
 @layer base {
   body {
-    font-family: "Inter", sans-serif, "slick";
+    font-family: "Inter", sans-serif;
     font-display: swap;
   }
 }
-@font-face {
-  font-family: "slick";
+.slick-next:before, .slick-prev:before{
+  font-family: "Inter", sans-serif;
   font-display: swap;
-}
+  }
 
 @layer components {
   input[type="checkbox"]:checked ~ label span svg {
