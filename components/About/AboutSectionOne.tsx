@@ -5,19 +5,19 @@ import UpdatedSliderComponent from "../ImageSlider";
 const images = [
   {
     imageURL:
-      'https://i.ibb.co/fY75L32/SCR-20231225-sdzb.jpg',
+      'https://i.ibb.co/W26FNHk/image1.webp',
   },
   {
     imageURL:
-      'https://i.ibb.co/NsdDRW6/SCR-20231225-sflc.jpg',
+      'https://i.ibb.co/BrWcY7c/SCR-20231225-sflc.webp',
   },
   {
     imageURL:
-      'https://i.ibb.co/Wkb80t3/SCR-20231225-sfyf.jpg',
+      'https://i.ibb.co/xD47nns/SCR-20231225-sfyf.webp',
   },
   {
     imageURL:
-      'https://i.ibb.co/fF2F1rr/SCR-20231225-sgjf.jpg',
+      'https://i.ibb.co/nmbW7zH/SCR-20231225-sgjf.webp',
   },
 ];
 
