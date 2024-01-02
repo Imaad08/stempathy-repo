@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Donate from "@/components/Donate";
-
+import BuyButtonComponent from "@/components/BuyButton";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,6 +18,7 @@ const ContactPage = () => {
       />
 
       <Donate />
+      
     </>
   );
 };
