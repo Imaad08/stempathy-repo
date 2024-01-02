@@ -21,9 +21,9 @@ const Donate = () => {
                 We are club STEMpathy at Del Norte High School in Poway Unified School District driven to elevate humanity by educating and inspiring children around the globe. Our purpose is to bring access to STEM education to local communities and underprivileged children all over the world in hopes to eliminate STEM education disparities.
                 </p>
 
-                <h1 className="mb-12 text-base !leading-relaxed dark:text-white sm:text-lg md:text-3xl">
+                <h2 className="mb-12 text-base !leading-relaxed dark:text-white sm:text-lg md:text-3xl">
                   STEM for all and all for STEM
-                </h1>
+                </h2>
 
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
