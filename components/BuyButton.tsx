@@ -13,6 +13,6 @@ function BuyButtonComponent() {
       </div>
     </>
   );
-}
+} 
 
 export default BuyButtonComponent;
