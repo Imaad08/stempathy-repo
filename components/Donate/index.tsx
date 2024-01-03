@@ -30,7 +30,7 @@ const Donate = () => {
                   </Link>
                 </div>
               </div>
-              <div className="w-full px-4 lg:w-1/2 flex items-center md:mt-10 sm:mt-10 xs:mt-10 justify-center">
+              <div className="w-full px-4 lg:w-1/2 flex items-center mt-10 justify-center">
                 <BuyButtonComponent />
               </div>
             </div>
