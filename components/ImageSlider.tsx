@@ -10,6 +10,12 @@ interface Slide {
 const UpdatedSliderComponent: React.FC = () => {
     const updatedSlides: Slide[] = [
         {
+            imageURL: 'https://ibb.co/yY2cRnF'
+        },
+        {
+            imageURL: 'https://ibb.co/j88CjPm'
+        },
+        {
             imageURL: 'https://static.wixstatic.com/media/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.jpg/v1/fill/w_2915,h_2186,al_c,q_90/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.webp',
         },
         {
