@@ -4,20 +4,22 @@ import UpdatedSliderComponent from "../ImageSlider";
 
 const images = [
   {
-    imageURL:
-      'https://i.ibb.co/W26FNHk/image1.webp',
+      imageURL: 'https://i.ibb.co/7RhdzJt/20240103-112505.jpg'
   },
   {
-    imageURL:
-      'https://i.ibb.co/BrWcY7c/SCR-20231225-sflc.webp',
+      imageURL: 'https://i.ibb.co/zmm3tTp/20240103-130341.jpg'
   },
   {
-    imageURL:
-      'https://i.ibb.co/xD47nns/SCR-20231225-sfyf.webp',
+      imageURL: 'https://i.ibb.co/W26FNHk/image1.webp',
   },
   {
-    imageURL:
-      'https://i.ibb.co/nmbW7zH/SCR-20231225-sgjf.webp',
+      imageURL: 'https://i.ibb.co/BrWcY7c/SCR-20231225-sflc.webp',
+  },
+  {
+      imageURL: 'https://i.ibb.co/xD47nns/SCR-20231225-sfyf.webp',
+  },
+  {
+      imageURL: 'https://i.ibb.co/nmbW7zH/SCR-20231225-sgjf.webp',
   },
 ];
 
@@ -45,7 +47,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="A Little About Us"
-                paragraph="We at Stempathy believe that access to a proper education is a basic human right. That’s why we are dedicated to elevating humanity through the education of children around the globe in the field of robotics, programming, and STEM. By creating our own curriculums and teaching them through multiple mediums, we hope to reach our goal. So far, we have spread our mission of teaching STEM to over 100 students and are striving to go past and through the world."
+                paragraph="We at Stempathy believe that access to a proper education is a basic human right. That’s why we are dedicated to elevating humanity through the education of children around the globe in the field of robotics, programming, and STEM. By creating our own curriculums and teaching them through multiple mediums, we hope to reach our goal. So far, we have spread our mission of teaching STEM to over 150 students and are striving to go past and through the world."
                 mb="44px"
               />
 
