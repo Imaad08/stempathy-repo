@@ -1,5 +1,5 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "stempathy-website",
   "version": "0.2.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "@sanity/image-url": "^1.0.2",
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.2",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "flowbite": "^2.2.0",
@@ -24,10 +27,12 @@
     "react-icons": "^4.12.0",
     "react-markdown": "^9.0.1",
     "react-modal-video": "^2.0.1",
+    "react-slick": "^0.29.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "remark-parse": "^11.0.0",
     "remark-react": "^9.0.1",
+    "slick-carousel": "^1.8.1",
     "swiper": "^11.0.5",
     "unified": "^11.0.4"
   },

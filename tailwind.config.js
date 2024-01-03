@@ -47,6 +47,7 @@ module.exports = {
         stroke: "#E3E8EF",
         "stroke-dark": "#353943",
         "bg-color-dark": "#171C28",
+        button: "#4568F7",
       },
 
       boxShadow: {

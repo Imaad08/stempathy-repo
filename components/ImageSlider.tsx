@@ -1,12 +1,21 @@
-"use client";
-import React, { useState } from 'react';
-import { BsChevronCompactLeft as LeftArrowIcon, BsChevronCompactRight as RightArrowIcon } from 'react-icons/bs';
-import { RxDotFilled as DotIcon } from 'react-icons/rx';
+"use client"
 
-interface Slide {
-    imageURL: string;
+import React, { useState, useRef } from 'react';
+import Slider from 'react-slick';
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid';
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
+interface Image {
+  imageURL: string;
 }
 
+interface UpdatedSliderComponentProps {
+  images: Image[];
+}
+
+<<<<<<< HEAD
 const UpdatedSliderComponent: React.FC = () => {
     const updatedSlides: Slide[] = [
         {
@@ -28,50 +37,81 @@ const UpdatedSliderComponent: React.FC = () => {
             imageURL: 'https://static.wixstatic.com/media/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.webp',
         }, 
     ];
+=======
+const UpdatedSliderComponent: React.FC<UpdatedSliderComponentProps> = ({ images }) => {
+  const slider = useRef<Slider>(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
+>>>>>>> 8c434e9880a73185f5c59646a6367cec0ac8b6fd
 
-    const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    beforeChange: (current, next) => setCurrentSlide(next),
+  };
 
-    const goToPrevSlide = () => {
-        const isFirstSlide = currentIndex === 0;
-        const newIndex = isFirstSlide ? updatedSlides.length - 1 : currentIndex - 1;
-        setCurrentIndex(newIndex);
-    };
+  const handleNext = () => {
+    slider.current?.slickNext();
+  };
 
-    const goToNextSlide = () => {
-        const isLastSlide = currentIndex === updatedSlides.length - 1;
-        const newIndex = isLastSlide ? 0 : currentIndex + 1;
-        setCurrentIndex(newIndex);
-    };
+  const handlePrev = () => {
+    slider.current?.slickPrev();
+  };
 
-    const goToSlide = (slideIndex: number) => {
-        setCurrentIndex(slideIndex);
-    };
+  const renderDots = () => {
+    return images.map((_, index) => (
+      <span
+        key={index}
+        className={`inline-block h-2 w-2 mx-2 rounded-full ${
+          currentSlide === index ? 'bg-primary' : 'bg-slate-800'
+        }`}
+        onClick={() => slider.current?.slickGoTo(index)}
+      ></span>
+    ));
+  };
 
-    return (
-        <div className='w-full m-auto max-w-[700px] py-16 px-4 relative group h-[450px]'>
+  return (
+    <div className="relative">
+      <Slider {...settings} ref={slider} className="rounded-2xl overflow-hidden">
+        {images.map((image, index) => (
+          <div key={index} className="relative">
             <div
-                style={{ backgroundImage: `url(${updatedSlides[currentIndex].imageURL})` }}
-                className='w-full h-full bg-center bg-cover rounded-2xl duration-500'
-            ></div>
-            <div className='absolute left-5 top-[50%] -translate-x-0 translate-y-[-50%] p-2 bg-black/20 text-white rounded-full group-hover:block cursor-pointer text-2xl'>
-                <LeftArrowIcon onClick={goToPrevSlide} size={30} />
+              style={{
+                height: '400px',
+                overflow: 'hidden',
+              }}
+            >
+              <div
+                className="w-full h-full bg-cover bg-center"
+                style={{ backgroundImage: `url(${image.imageURL})` }}
+              ></div>
             </div>
-            <div className='absolute right-5 top-[50%] -translate-x-0 translate-y-[-50%] p-2 bg-black/20 text-white rounded-full group-hover:block cursor-pointer text-2xl'>
-                <RightArrowIcon onClick={goToNextSlide} size={30} />
-            </div>
-            <div className='flex justify-center py-2 top-4'>
-                {updatedSlides.map((slide, slideIndex) => (
-                    <div
-                        key={slideIndex}
-                        onClick={() => goToSlide(slideIndex)}
-                        className='cursor-pointer text-2xl'
-                    >
-                        <DotIcon />
-                    </div>
-                ))}
-            </div>
-        </div>
-    );
-}
+          </div>
+        ))}
+      </Slider>
+      <button
+        onClick={handlePrev}
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-primary text-white rounded-full p-2"
+        aria-label="Previous Slide"
+      >
+        <ChevronLeftIcon className="w-6 h-6" />
+      </button>
+      <button
+        onClick={handleNext}
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-primary text-white rounded-full p-2"
+        aria-label="Next Slide"
+      >
+        <ChevronRightIcon className="w-6 h-6" />
+      </button>
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        {renderDots()}
+      </div>
+    </div>
+  );
+};
 
 export default UpdatedSliderComponent;
