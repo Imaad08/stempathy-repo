@@ -15,33 +15,30 @@ interface UpdatedSliderComponentProps {
   images: Image[];
 }
 
-<<<<<<< HEAD
-const UpdatedSliderComponent: React.FC = () => {
-    const updatedSlides: Slide[] = [
-        {
-            imageURL: 'https://ibb.co/yY2cRnF'
-        },
-        {
-            imageURL: 'https://ibb.co/j88CjPm'
-        },
-        {
-            imageURL: 'https://static.wixstatic.com/media/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.jpg/v1/fill/w_2915,h_2186,al_c,q_90/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.webp',
-        },
-        {
-            imageURL: 'https://static.wixstatic.com/media/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.webp',
-        },
-        {
-            imageURL: 'https://static.wixstatic.com/media/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.webp',
-        },
-        {
-            imageURL: 'https://static.wixstatic.com/media/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.webp',
-        }, 
-    ];
-=======
+const images = [
+      {
+          imageURL: 'https://ibb.co/yY2cRnF'
+      },
+      {
+          imageURL: 'https://ibb.co/j88CjPm'
+      },
+      {
+          imageURL: 'https://static.wixstatic.com/media/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.jpg/v1/fill/w_2915,h_2186,al_c,q_90/1df416_a5ad5739d2e54eb0a929b763eea7c328~mv2.webp',
+      },
+      {
+          imageURL: 'https://static.wixstatic.com/media/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_ad833a3bab7d47d59e1e39d628cdf2f1~mv2.webp',
+      },
+      {
+          imageURL: 'https://static.wixstatic.com/media/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_bae07426eec94df1a5ad51f731b9838d~mv2.webp',
+      },
+      {
+          imageURL: 'https://static.wixstatic.com/media/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.jpg/v1/fill/w_3886,h_2186,al_c,q_90/1df416_f25446fbc6c34eff84d2cc95fcf7e698~mv2.webp',
+      }, 
+];
+
 const UpdatedSliderComponent: React.FC<UpdatedSliderComponentProps> = ({ images }) => {
   const slider = useRef<Slider>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
->>>>>>> 8c434e9880a73185f5c59646a6367cec0ac8b6fd
 
   const settings = {
     dots: false,
