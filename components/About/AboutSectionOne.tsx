@@ -4,10 +4,10 @@ import UpdatedSliderComponent from "../ImageSlider";
 
 const images = [
   {
-      imageURL: 'https://i.ibb.co/7RhdzJt/20240103-112505.jpg'
+      imageURL: 'https://i.ibb.co/YZMmdYM/SCR-20240103-pnzj.webp',
   },
   {
-      imageURL: 'https://i.ibb.co/zmm3tTp/20240103-130341.jpg'
+      imageURL: 'https://i.ibb.co/MsyZc1N/SCR-20240103-podl.webp',
   },
   {
       imageURL: 'https://i.ibb.co/W26FNHk/image1.webp',
