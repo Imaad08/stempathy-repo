@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  plugins: [require("daisyui", '@tailwindcss/typography')],
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -69,5 +70,4 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
 };
