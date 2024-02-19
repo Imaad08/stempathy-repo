@@ -29,12 +29,15 @@ const Leadership = () => {
                   Meet our leadership team!
                 </p>
             </div>
-            <Cards />
+            
             </div>
             
+            
           </div>
+          <Cards />
           
         </div>
+        
         
       </section>
     </>
