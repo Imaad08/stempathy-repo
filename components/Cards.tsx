@@ -30,7 +30,7 @@ const Cards = () => {
         <button className="btn btn-primary" onClick={() => openModal('my_modal_1')}>View More</button>
       </div>
       <dialog id="my_modal_1" className="modal">
-        <div className="modal-box">
+        <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Tanay Shah</h3>
           <p className="py-4">Tanay Shah is a 10th grader at Del Norte High School, San Diego. While other 4-year olds wanted to be Superman or Spiderman, Tanay wanted to be "All The Mans"! This thirst for trying and learning new things has led Tanay to tinker with various interests ranging from robotics to hip-hop dance to piano (that last one didn't quite pan out :-) ). He has won several State and Regional awards with First Lego League and VexIQ robotics competitions and has been invited to be a keynote speaker for Altitude Learning and the D39X Educational Summit. He balances his interests with wanting to help his friends and his school get to the next level, especially through the current pandemic. And so, being a Student Ambassador with Thrively is a natural fit for Tanay. This combines his passions for technology, new-age learning, and advocating for student agency into one neat package. In the years to come, Tanay hopes to be a roboticist or an entrepreneur. In his spare time, Tanay likes to play football, golf, and video games! His favorite tag line - Carpe Diem!!  </p>
           <div className="modal-action">
@@ -55,7 +55,7 @@ const Cards = () => {
         <button className="btn btn-primary" onClick={() => openModal('my_modal_2')}>View More</button>
       </div>
       <dialog id="my_modal_2" className="modal">
-        <div className="modal-box">
+        <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Srijan Atti</h3>
           <p className="py-4">Vice President</p>
           <div className="modal-action">
@@ -79,8 +79,8 @@ const Cards = () => {
       <div className="card-actions justify-end">
         <button className="btn btn-primary" onClick={() => openModal('my_modal_3')}>View More</button>
       </div>
-      <dialog id="my_modal_3" className="modal">
-        <div className="modal-box">
+      <dialog id="my_modal_3" className="modal ">
+        <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Imaad Muzaffer</h3>
           <p className="py-4">Imaad Muzaffer is a dedicated computer scientist currently a sophmore attending Del Norte High School in San Diego, CA. With a strong academic record and a passion for computer science, Imaad has demonstrated leadership as the President & Founder of the Del Norte High School Technology Student Association and President of Coding4Kidz. His skills encompass various programming languages and technologies, including Python, Unity Game Development, and web development with React, Typescript, and Tailwind. Additionally, he has engaged in extracurricular activities such as robotics at his school and has a keen interest in Artificial Intelligence/Machine Learning.</p>
           <div className="modal-action">
@@ -105,7 +105,7 @@ const Cards = () => {
         <button className="btn btn-primary" onClick={() => openModal('my_modal_4')}>View More</button>
       </div>
       <dialog id="my_modal_4" className="modal">
-        <div className="modal-box">
+        <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Kiana Withee</h3>
           <p className="py-4">Assitant Outreach Lead</p>
           <div className="modal-action">
@@ -130,7 +130,7 @@ const Cards = () => {
         <button className="btn btn-primary" onClick={() => openModal('my_modal_5')}>View More</button>
       </div>
       <dialog id="my_modal_5" className="modal">
-        <div className="modal-box">
+        <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Sameeksha Vashishta</h3>
           <p className="py-4">Outread Lead</p>
           <div className="modal-action">
@@ -158,7 +158,7 @@ const Cards = () => {
       <button className="btn btn-primary" onClick={() => openModal('my_modal_6')}>View More</button>
     </div>
     <dialog id="my_modal_6" className="modal">
-      <div className="modal-box">
+      <div className="modal-box bg-gray-800">
         <h3 className="font-bold text-lg">Ananya Asudani</h3>
         <p className="py-4">Treasurer</p>
         <div className="modal-action">
