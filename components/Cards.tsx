@@ -17,7 +17,7 @@ const Cards = () => {
   };
 
   return (
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+<div className="grid grid-cols-1 text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
   {/* Card 1 */}
   <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
@@ -44,7 +44,7 @@ const Cards = () => {
   </div>
 
   {/* Card 2 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Srijan" />
     </figure>
@@ -69,7 +69,7 @@ const Cards = () => {
   </div>
 
   {/* Card 3 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/1ZfvfKL/1f08d5eb-3169-42c3-9a71-3c4ec5a6916d-2.jpg" alt="Imaad" />
     </figure>
@@ -94,7 +94,7 @@ const Cards = () => {
   </div>
 
   {/* Card 4 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Kiana" />
     </figure>
@@ -119,7 +119,7 @@ const Cards = () => {
   </div>
 
   {/* Card 5 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Sameeksha" />
     </figure>
@@ -147,7 +147,7 @@ const Cards = () => {
     
   </div>
   {/* Card 6 */}
-<div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
+<div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
   <figure>
     <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" className='h-30 w-30' alt="Ananya" />
   </figure>
