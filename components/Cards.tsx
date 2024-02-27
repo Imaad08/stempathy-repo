@@ -19,7 +19,7 @@ const Cards = () => {
   return (
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
   {/* Card 1 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-base-100 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/HC6T4hQ/IMG-5455.jpg" alt="Tanay" />
     </figure>
@@ -44,7 +44,7 @@ const Cards = () => {
   </div>
 
   {/* Card 2 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-base-100 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Srijan" />
     </figure>
@@ -69,7 +69,7 @@ const Cards = () => {
   </div>
 
   {/* Card 3 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-base-100 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/1ZfvfKL/1f08d5eb-3169-42c3-9a71-3c4ec5a6916d-2.jpg" alt="Imaad" />
     </figure>
@@ -82,7 +82,7 @@ const Cards = () => {
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
           <h3 className="font-bold text-lg">Imaad Muzaffer</h3>
-          <p className="py-4">Technology Lead</p>
+          <p className="py-4">Imaad Muzaffer is a dedicated computer scientist currently a sophmore attending Del Norte High School in San Diego, CA. With a strong academic record and a passion for computer science, Imaad has demonstrated leadership as the President & Founder of the Del Norte High School Technology Student Association and President of Coding4Kidz. His skills encompass various programming languages and technologies, including Python, Unity Game Development, and web development with React, Typescript, and Tailwind. Additionally, he has engaged in extracurricular activities such as robotics at his school and has a keen interest in Artificial Intelligence/Machine Learning.</p>
           <div className="modal-action">
             <form method="dialog">
               <button className="btn btn-primary" onClick={() => closeModal('my_modal_3')}>Close</button>
@@ -94,7 +94,7 @@ const Cards = () => {
   </div>
 
   {/* Card 4 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-base-100 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Kiana" />
     </figure>
@@ -119,7 +119,7 @@ const Cards = () => {
   </div>
 
   {/* Card 5 */}
-  <div className="card w-full sm:w-full md:w-full lg:w-full bg-base-100 shadow-xl m-5">
+  <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Sameeksha" />
     </figure>
@@ -147,7 +147,7 @@ const Cards = () => {
     
   </div>
   {/* Card 6 */}
-<div className="card w-full sm:w-full md:w-full lg:w-full bg-base-100 shadow-xl m-5">
+<div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
   <figure>
     <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" className='h-30 w-30' alt="Ananya" />
   </figure>
