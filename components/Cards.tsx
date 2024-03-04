@@ -100,14 +100,14 @@ const Cards = () => {
     </figure>
     <div className="card-body">
       <h2 className="card-title">Kiana Withee</h2>
-      <p>Assitant Outreach Lead</p>
+      <p>Assistant Outreach Lead</p>
       <div className="card-actions justify-end">
         <button className="btn btn-primary" onClick={() => openModal('my_modal_4')}>View More</button>
       </div>
       <dialog id="my_modal_4" className="modal">
         <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Kiana Withee</h3>
-          <p className="py-4">Assitant Outreach Lead</p>
+          <p className="py-4">Assistant Outreach Lead</p>
           <div className="modal-action">
             <form method="dialog">
               <button className="btn btn-primary" onClick={() => closeModal('my_modal_4')}>Close</button>
@@ -124,14 +124,14 @@ const Cards = () => {
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Sameeksha" />
     </figure>
     <div className="card-body">
-      <h2 className="card-title">Sameeksha Vashishta</h2>
+      <h2 className="card-title">Sameeksha Vashishtha</h2>
       <p>Outreach Lead</p>
       <div className="card-actions justify-end">
         <button className="btn btn-primary" onClick={() => openModal('my_modal_5')}>View More</button>
       </div>
       <dialog id="my_modal_5" className="modal">
         <div className="modal-box bg-gray-800">
-          <h3 className="font-bold text-lg">Sameeksha Vashishta</h3>
+          <h3 className="font-bold text-lg">Sameeksha Vashishtha</h3>
           <p className="py-4">Outread Lead</p>
           <div className="modal-action">
             <form method="dialog">
