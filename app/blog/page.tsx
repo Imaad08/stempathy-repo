@@ -4,8 +4,8 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 // import Posts from "@/components/Posts";
 import { Metadata } from "next";
 import Link from "next/link";
-import { Post } from "@/app/lib/interface";
-import { client } from "@/app/lib/sanity";
+import { Post } from "@/lib/interface";
+import { client } from "@/lib/sanity";
 
 async function getData() {
   const query = `*[_type == "post"]`;
