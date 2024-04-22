@@ -6,7 +6,6 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
-
 export const metadata: Metadata = {
   title: "STEMPATHY",
   description: "This is Home for STEMpathy DNHS",
