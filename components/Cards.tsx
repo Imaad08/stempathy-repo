@@ -21,7 +21,7 @@ const Cards = () => {
   {/* Card 1(Tanay) */}
   <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
-      <img src="https://i.ibb.co/HC6T4hQ/IMG-5455.jpg" alt="Tanay" />
+      <img src="https://i.postimg.cc/Kzk8c2Gf/tanaypfp.jpg" alt="Tanay" />
     </figure>
     <div className="card-body">
       <h2 className="card-title">Tanay Shah</h2>
@@ -71,7 +71,7 @@ const Cards = () => {
   {/* Card 3(Imaad) */}
   <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
-      <img src="https://i.ibb.co/1ZfvfKL/1f08d5eb-3169-42c3-9a71-3c4ec5a6916d-2.jpg" alt="Imaad" />
+      <img src="https://i.postimg.cc/3JCJx9Ts/imaadpfp.jpg" alt="Imaad" />
     </figure>
     <div className="card-body">
       <h2 className="card-title">Imaad Muzaffer</h2>

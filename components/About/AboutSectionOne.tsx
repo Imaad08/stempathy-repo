@@ -4,22 +4,22 @@ import UpdatedSliderComponent from "../ImageSlider";
 
 const images = [
   {
-      imageURL: 'https://github.com/Imaad08/stempathy-repo/blob/main/public/images/slider/SCR-20240103-pnzj.webp',
+      imageURL: 'https://i.postimg.cc/Bv36CyCQ/SCR-20240103-pnzj.webp',
   },
   {
-      imageURL: 'https://github.com/Imaad08/stempathy-repo/blob/main/public/images/slider/SCR-20240103-podl.webp',
+      imageURL: 'https://i.postimg.cc/yxDYdz7n/SCR-20240103-podl.webp',
   },
   {
-      imageURL: 'https://github.com/Imaad08/stempathy-repo/blob/main/public/images/slider/image1.webp',
+      imageURL: 'https://i.postimg.cc/XYdqd3dz/image1.webp',
   },
   {
-      imageURL: 'https://github.com/Imaad08/stempathy-repo/blob/main/public/images/slider/SCR-20231225-sflc.webp',
+      imageURL: 'https://i.postimg.cc/vBqZbmwc/SCR-20231225-sflc.webp',
   },
   {
-      imageURL: 'https://github.com/Imaad08/stempathy-repo/blob/main/public/images/slider/SCR-20231225-sfyf.webp',
+      imageURL: 'https://i.postimg.cc/N0x0C4N8/SCR-20231225-sfyf.webp',
   },
   {
-      imageURL: 'https://github.com/Imaad08/stempathy-repo/blob/main/public/images/slider/SCR-20231225-sgjf.webp',
+      imageURL: 'https://i.postimg.cc/85Pz2632/SCR-20231225-sgjf.webp',
   },
 ];
 
