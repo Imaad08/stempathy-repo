@@ -18,7 +18,7 @@ const Cards = () => {
 
   return (
 <div className="grid grid-cols-1 text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
-  {/* Card 1 */}
+  {/* Card 1(Tanay) */}
   <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/HC6T4hQ/IMG-5455.jpg" alt="Tanay" />
@@ -43,7 +43,7 @@ const Cards = () => {
     </div>
   </div>
 
-  {/* Card 2 */}
+  {/* Card 2(Srijan) */}
   <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Srijan" />
@@ -68,7 +68,7 @@ const Cards = () => {
     </div>
   </div>
 
-  {/* Card 3 */}
+  {/* Card 3(Imaad) */}
   <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/1ZfvfKL/1f08d5eb-3169-42c3-9a71-3c4ec5a6916d-2.jpg" alt="Imaad" />
@@ -93,7 +93,7 @@ const Cards = () => {
     </div>
   </div>
 
-  {/* Card 4 */}
+  {/* Card 4(Kiana) */}
   <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Kiana" />
@@ -118,7 +118,7 @@ const Cards = () => {
     </div>
   </div>
 
-  {/* Card 5 */}
+  {/* Card 5(Sameeksha) */}
   <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
       <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Sameeksha" />
@@ -146,7 +146,7 @@ const Cards = () => {
     </div>
     
   </div>
-  {/* Card 6 */}
+  {/* Card 6(Ananya) */}
 <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
   <figure>
     <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" className='h-30 w-30' alt="Ananya" />
@@ -184,7 +184,9 @@ export default Cards;
 
 
 
-
+// Different card approach but has scaling issues.
+// Will work on later in order to reduce complexity and program length
+// ABSTRACTION IS KEY (Insert Nerd Emoji)
 
 // "use client";
 // import React from 'react';
