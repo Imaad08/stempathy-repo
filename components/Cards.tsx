@@ -17,6 +17,7 @@ const Cards = () => {
   };
 
   return (
+    // im too lazy to make it an array so theres that
 <div className="grid grid-cols-1 text-white sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
   {/* Card 1(Tanay) */}
   <div className="card w-full sm:w-full md:w-full lg:w-full bg-gray-800 shadow-xl m-5">
