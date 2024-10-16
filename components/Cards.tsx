@@ -47,7 +47,7 @@ const Cards = () => {
   {/* Card 2(Srijan) */}
   <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
     <figure>
-      <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Srijan" />
+      <img src="https://i.postimg.cc/wxtmL774/SCR-20241015-txur.jpg" alt="Srijan" />
     </figure>
     <div className="card-body">
       <h2 className="card-title">Srijan Atti</h2>
@@ -58,7 +58,7 @@ const Cards = () => {
       <dialog id="my_modal_2" className="modal">
         <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Srijan Atti</h3>
-          <p className="py-4">Vice President</p>
+          <p className="py-4">Srijan Atti is an 11th grader at Del Norte High School with a love for all things STEM. His passion for the field originated early on after watching the Iron Man movies; seeing Tony Stark make the Mark I suit with his bare hands inspired Srijan and opened his eyes to the possibilities that STEM opens. His passions grew as he interacted with computer science, robotics, and more sciences. His passions have culminated in numerous awards in cyber security competitions including National Champion of the CyberPatriot competition, two time SoCal Cyber Cup winner, and Space Grand Challenge winner. He hopes to spread his passion for the field and inspire kids in the same way Tony Stark inspired him.</p>
           <div className="modal-action">
             <form method="dialog">
               <button className="btn btn-primary" onClick={() => closeModal('my_modal_2')}>Close</button>
@@ -161,7 +161,7 @@ const Cards = () => {
     <dialog id="my_modal_6" className="modal">
       <div className="modal-box bg-gray-800">
         <h3 className="font-bold text-lg">Ananya Asudani</h3>
-        <p className="py-4">Treasurer</p>
+        <p className="py-4">Ananya Asudani is an 11th grader in Del Norte High School San Diego California. She enjoys all things STEM, her specialty being biology. Ever since she was a kid she enjoyed learning about genes, genetics, and cellular biology. This interest led to her writing a children’s book about genetics called “Jackets and Genes.” I enjoy doing research as well as reading up on new treatments and therapeutics that can potentially benefit a plethora of diseases and disorders in the future. It is my goal and aspiration to create equity and enable students to have opportunities to do research! In my free time I love painting, teaching, and listening to music!</p>
         <div className="modal-action">
           <form method="dialog">
             <button className="btn btn-primary" onClick={() => closeModal('my_modal_6')}>Close</button>
