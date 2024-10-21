@@ -108,7 +108,8 @@ const Cards = () => {
       <dialog id="my_modal_4" className="modal">
         <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Kiana Withee</h3>
-          <p className="py-4">Assistant Outreach Lead</p>
+          <p className="py-4">Kiana Withee is a junior at Del Norte High School with a wide range of interests and passions. Academically, she thrives in subjects like math and loves immersing herself in a good book. Outside the classroom, Kiana enjoys crocheting, where she channels her creativity, and stays active by playing volleyball, which fuels her competitive spirit and love for teamwork. A natural helper, Kiana finds great fulfillment in supporting others and contributing to her community. Her passion for problem-solving has also driven her to participate in robotics programs for five years. She’s been actively involved in both FIRST LEGO League (FLL) and FIRST Robotics Competition (FRC), where she has gained experience in engineering, programming, and teamwork. Whether she’s on the volleyball court, working on a robotics challenge, or helping someone in need, Kiana brings enthusiasm, kindness, and determination to everything she does. With her passion and love for life, she strives to make a positive impact wherever life takes her.
+          </p>
           <div className="modal-action">
             <form method="dialog">
               <button className="btn btn-primary" onClick={() => closeModal('my_modal_4')}>Close</button>
@@ -133,7 +134,7 @@ const Cards = () => {
       <dialog id="my_modal_5" className="modal">
         <div className="modal-box bg-gray-800">
           <h3 className="font-bold text-lg">Sameeksha Vashishtha</h3>
-          <p className="py-4">Outread Lead</p>
+          <p className="py-4">Sameeksha Vashishtha, Outreach Lead for a STEMpathy, began her journey in 8th grade when she learned coding and discovered its potential for innovation. Since then, she has been delved into FRC robotics (starting in 2022) and her aim is to pursue a PhD in computer science. With a passion for expanding STEM education, especially for underprivileged children, Sameeksha spearheaded a research project to provide opportunities for students to explore STEM fields. She believes education is key to fostering future leaders and innovators. As outreach lead, Sameeksha manages partnerships, plans events, and advocates for diversity, breaking barriers to inspire young minds in science and technology.</p>
           <div className="modal-action">
             <form method="dialog">
               <button className="btn btn-primary" onClick={() => closeModal('my_modal_5')}>Close</button>
@@ -150,7 +151,7 @@ const Cards = () => {
   {/* Card 6(Ananya) */}
 <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
   <figure>
-    <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" className='h-30 w-30' alt="Ananya" />
+    <img src="/assets/ananyapfp.jpeg" className='h-30 w-30' alt="Ananya" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">Ananya Asudani</h2>
