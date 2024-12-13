@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { NumberTicker } from "../ui/number-ticker";
+ 
 
 const AboutSectionTwo = () => {
   return (
@@ -29,7 +31,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    500+
+                  <NumberTicker value={500} />+
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Students Reached
@@ -50,7 +52,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    2
+                  <NumberTicker value={2} />
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Countries Collaborated With
@@ -71,7 +73,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-1 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    7
+                  <NumberTicker value={7} />
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Events Planned
@@ -92,7 +94,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    $800
+                    $<NumberTicker value={800} />
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Money Raised
