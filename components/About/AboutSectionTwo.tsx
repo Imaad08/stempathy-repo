@@ -73,10 +73,10 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-1 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  <NumberTicker value={7} />
+                  <NumberTicker value={11} />
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                    Events Planned
+                    Curriculums Developed
                   </p>
                 </div>
               </div>
@@ -94,10 +94,10 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    $<NumberTicker value={800} />
+                    <NumberTicker value={20} />
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                    Money Raised
+                    Organizations Collaborated With
                   </p>
                 </div>
               </div>

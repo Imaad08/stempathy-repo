@@ -31,7 +31,7 @@ export default async function Blog() {
     <>
       <Breadcrumb
         pageName="Blogs"
-        description="Here is a list of blogs of previous things we have done"
+        description="Here is a blog of some our notable and favorite events!"
       />
 
       <section className="pb-[120px] pt-[120px]">
@@ -41,7 +41,7 @@ export default async function Blog() {
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
   <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 mt-4">
-    All Posts
+    Notable Events
   </h1>
 </div>
 
