@@ -31,7 +31,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  <NumberTicker value={500} />+
+                  <NumberTicker value={1000} />+
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Students Reached
