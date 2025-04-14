@@ -113,7 +113,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow text-center lg:text-left">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    $300
+                    $<NumberTicker value={300} />
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Silver Award at SoCal Youth Leadership Summit
