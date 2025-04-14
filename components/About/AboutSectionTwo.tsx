@@ -111,7 +111,7 @@ const AboutSectionTwo = () => {
                     <path d="M20 16c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4z"/>
                   </svg>
                 </div>
-                <div className="flex-grow text-center lg:text-left">
+                <div className="flex-grow text-left lg:text-center">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
                     $<NumberTicker value={300} />
                   </h3>
