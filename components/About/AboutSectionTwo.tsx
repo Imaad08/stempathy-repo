@@ -17,7 +17,7 @@ const AboutSectionTwo = () => {
             </div>
 
             {/* Right Side */}
-            <div className="w-full px-4 lg:w-1/2 flex flex-wrap lg:flex-row">
+            <div className="w-full px-4 lg:w-1/2 flex flex-wrap lg:flex-row justify-center">
               {/* First Section */}
               <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center">
                 <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
@@ -98,6 +98,28 @@ const AboutSectionTwo = () => {
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Organizations Collaborated With
+                  </p>
+                </div>
+              </div>
+
+              {/* Sponsorship Section */}
+              <div className="mb-9 w-full lg:w-1/2 flex flex-col lg:flex-row lg:items-center justify-center">
+                <div className="mb-10 flex h-[50px] w-[50px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mr-8 mt-8">
+                  <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
+                    <path d="M20 0C8.954 0 0 8.954 0 20s8.954 20 20 20 20-8.954 20-20S31.046 0 20 0zm0 36c-8.837 0-16-7.163-16-16S11.163 4 20 4s16 7.163 16 16-7.163 16-16 16z"/>
+                    <path d="M20 8c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 20c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"/>
+                    <path d="M20 16c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4z"/>
+                  </svg>
+                </div>
+                <div className="flex-grow text-center lg:text-left">
+                  <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
+                    $300
+                  </h3>
+                  <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
+                    Silver Award at SoCal Youth Leadership Summit
+                  </p>
+                  <p className="text-sm font-medium leading-relaxed text-primary lg:leading-relaxed">
+                    Sponsored by Ingenius Prep
                   </p>
                 </div>
               </div>
