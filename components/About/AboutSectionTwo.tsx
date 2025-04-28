@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { NumberTicker } from "../ui/number-ticker";
+import build from "next/dist/build";
+import { start } from "repl";
  
 
 const AboutSectionTwo = () => {
@@ -132,3 +134,7 @@ const AboutSectionTwo = () => {
 };
 
 export default AboutSectionTwo;
+
+
+
+

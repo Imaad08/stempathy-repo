@@ -21,8 +21,8 @@ export default function Home() {
       <Hero />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Features />
       <LatestArticles />
+      <Features />
     </>
   );
 }
