@@ -1,16 +1,17 @@
 import ArticleLayout from "@/components/ArticleLayout";
 export const article = {
   author: "Imaad Muzaffer",
-  date: "2025-07-12",
+  date: "2025-04-14",
   title: "Spark A Change Foundation",
   description:
-    "We taught kids about electricity at the Spark A Change Foundation in India",
+    "We taught kids about Robotics at a Foundation in India",
 };
 export const metadata = {
   title: article.title,
   description: article.description,
 };
 
+export default (props) => <ArticleLayout article={article} {...props} />;
 
 ![Spark A Change](/assets/sparkachange.png)
 
