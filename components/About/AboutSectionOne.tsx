@@ -21,6 +21,39 @@ const images = [
   {
       imageURL: 'https://i.postimg.cc/85Pz2632/SCR-20231225-sgjf.webp',
   },
+  {
+    imageURL: '/assets/pic1.jpeg',
+  },
+  {
+    imageURL: '/assets/pic2.jpeg',
+  },
+  {
+    imageURL: '/assets/pic3.jpeg',
+  },
+  {
+    imageURL: '/assets/pic4.jpeg',
+  },
+  {
+    imageURL: '/assets/pic5.jpeg',
+  },
+  {
+    imageURL: '/assets/pic6.jpeg',
+  },
+  {
+    imageURL: '/assets/pic7.jpeg',
+  },
+  {
+    imageURL: '/assets/pic8.jpeg',
+  },
+  {
+    imageURL: '/assets/pic9.jpeg',
+  },
+  {
+    imageURL: '/assets/pic10.jpeg',
+  },
+  {
+    imageURL: '/assets/pic11.jpeg',
+  },
 ];
 
 const checkIcon = (

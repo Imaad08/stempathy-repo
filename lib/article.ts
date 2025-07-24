@@ -5,6 +5,7 @@ interface Article {
   description: string;
   author: string;
   date: string;
+  image?:string;
 }
 
 export interface ArticleWithSlug extends Article {

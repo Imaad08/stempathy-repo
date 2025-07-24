@@ -24,6 +24,15 @@ const LatestArticles = async () => {
               key={article.slug} 
               className="bg-white dark:bg-dark rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
             >
+              {article.image && (
+                <div className="w-full h-64 relative">
+                  <img
+                    src={article.image}
+                    alt={article.title}
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+              )}
               <div className="p-5">
                 <div className="text-sm text-primary mb-2">
                   {formatDate(article.date)}
