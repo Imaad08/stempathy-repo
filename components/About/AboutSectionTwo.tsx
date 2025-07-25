@@ -14,7 +14,7 @@ const AboutSectionTwo = () => {
             {/* Left Side */}
             <div className="w-full px-4 lg:w-1/2 mb-6 lg:mb-0">
               <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                Impacts
+                Impact
               </h3>
             </div>
 
@@ -33,7 +33,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  <NumberTicker value={1000} />+
+                  <NumberTicker value={1750} />+
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Students Reached
@@ -75,7 +75,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-1 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                  <NumberTicker value={11} />
+                  <NumberTicker value={15} />
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Curriculums Developed
@@ -96,7 +96,7 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    <NumberTicker value={20} />
+                    <NumberTicker value={25} />+
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
                     Organizations Collaborated With
@@ -115,10 +115,10 @@ const AboutSectionTwo = () => {
                 </div>
                 <div className="flex-grow text-left lg:text-center">
                   <h3 className="mb-2 text-xl font-bold text-black dark:text-white lg:text-xl xl:text-2xl">
-                    $<NumberTicker value={300} />
+                    Silver Award
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color lg:leading-relaxed">
-                    Silver Award at SoCal Youth Leadership Summit
+                    SoCal Youth Leadership Summit
                   </p>
                   <p className="text-sm font-medium leading-relaxed text-primary lg:leading-relaxed">
                     Sponsored by Ingenius Prep
