@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import { AppContext } from "@/app/providers";
 import { BsArrowLeftCircle } from "react-icons/bs";
 import { formatDate } from "@/lib/formateDate";
-import { Prose } from "./Prose";
 
 function ArrowLeftIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
@@ -58,9 +57,9 @@ const ArticleLayout = ({
                 <span className="ml-3">{formatDate(article.date)}</span>
               </time>
             </header>
-            <Prose className="mt-8" data-mdx-content>
+            <div className="mt-8" data-mdx-content>
               {children}
-            </Prose>
+            </div>
           </article>
         </div>
       </div>

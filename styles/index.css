@@ -45,4 +45,11 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+
+  /* Ensure images are rounded in MDX content */
+  [data-mdx-content] img {
+    border-radius: 1.5rem !important;
+    margin: 2rem auto !important;
+    display: block !important;
+  }
 }

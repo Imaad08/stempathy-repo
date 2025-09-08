@@ -102,6 +102,11 @@ export default function typographyStyles({ theme }: PluginUtils) {
         // Images
         img: {
           borderRadius: theme("borderRadius.3xl"),
+          marginTop: theme("spacing.8"),
+          marginBottom: theme("spacing.8"),
+          marginLeft: "auto",
+          marginRight: "auto",
+          display: "block",
         },
 
         // Inline elements
@@ -161,17 +166,19 @@ export default function typographyStyles({ theme }: PluginUtils) {
         // Lists
         ul: {
           listStyleType: "disc",
+          listStylePosition: "outside",
+          paddingLeft: theme("spacing.6"),
         },
         ol: {
           listStyleType: "decimal",
-        },
-        "ul, ol": {
+          listStylePosition: "outside",
           paddingLeft: theme("spacing.6"),
         },
         li: {
-          marginTop: theme("spacing.6"),
-          marginBottom: theme("spacing.6"),
-          paddingLeft: theme("spacing[3.5]"),
+          marginTop: theme("spacing.2"),
+          marginBottom: theme("spacing.2"),
+          paddingLeft: theme("spacing.2"),
+          display: "list-item",
         },
         "li::marker": {
           fontSize: theme("fontSize.sm")[0],
