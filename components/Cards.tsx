@@ -102,7 +102,7 @@ const Cards = () => {
           {/* Card 4(Kiana) */}
           <div className="card w-full sm:w-full md:w-full text-white lg:w-full bg-gray-800 shadow-xl m-5">
             <figure>
-              <img src="https://i.ibb.co/thXrYtb/360-F-248426448-NVKLyw-Wq-Ar-G2-ADUx-Dq6-Qprt-Izs-F82d-MF.jpg" alt="Kiana" />
+              <img src="/assets/kianapfp.jpg" alt="Kiana" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Kiana Withee</h2>
